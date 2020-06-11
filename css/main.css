@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*===========HEADER=============*/ 
+
+header {
+    padding-top: 108px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #212121;
+}
+
+hr {
+    width: 64px;
+    height: 2px;
+    margin: 30px auto;
+    background: #FF8B38;
+    border: none;
+}
+
+h4 {
+    color: #86878b;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/*==========MAIN CONTENT============*/
+
+main {
+    padding: 60px 0 107px;
+    font-size: 0;
+}
+
+.content_block {
+    display: inline-block;
+    width: 350px;
+    margin: 20px 16px;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border: 2px solid #FF8B38;
+    border-radius: 50%;
+}
+
+h2 {
+    margin: 29px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878b;
+}
+
+.icon--lamp {
+    background: url(../img/icon_lamp.png) no-repeat center center;
+}
+
+.icon--keyboard {
+    background: url(../img/icon_keyboard.png) no-repeat center center;
+}
+
+.icon--lightning {
+    background: url(../img/icon_lightning.png) no-repeat center center;
+}
+
+/* ==========CITY SECTION=============== */
+
+.city_block {
+    width: 1400px;
+    height: 320px;
+    margin: 0;
+    background-image: url(../img/background_city_img.png);
+    background-repeat: no-repeat;
+}
+
+.axure {
+    margin-top: 79px;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.line {
+    margin-top: 26px;
+    margin-bottom: 26px;
+    size: 2px;
+    width: 74px;
+    color: #ffffff;
+    background-color: #ffffff;
+}
+
+.description {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+button {
+    margin-top: 33px;
+    padding: 15px 33px 14px 31px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    background-color: transparent;
+    border-width: 2px;
+    border-color: #ffffff;
+    outline: none;
+    cursor: pointer;
+}
+
+footer {
+    width: 1400px;
+    height: 99px;
+    background-color: #020000;
+
+}
+
+/* ==============SOCIAL MEDIA REFERENCES============ */
+
+.sm_icons_block {
+    display: inline-block;
+    margin-top: 38px;
+    width: 317px;
+    height: 23px;
+    text-align: center;
+    background-image: url(../img/sm_icons.png);
+}
+
+.facebook_button {
+    display: inline-block;
+    margin-left: 0px;
+    width: 23px;
+    height: 23px;
+}
+
+.twitter_button {
+    display: inline-block;
+    margin-left: 14px;
+    width: 23px;
+    height: 23px;
+}
+
+.google_plus_button {
+    display: inline-block;
+    margin-left: 24px;
+    width: 23px;
+    height: 23px;
+}
+
+.pinterest_button {
+    display: inline-block;
+    margin-left: 22px;
+    width: 23px;
+    height: 23px;
+}
+
+.instagram_button {
+    display: inline-block;
+    margin-left: 22px;
+    width: 23px;
+    height: 23px;
+}
+
+.stumbleupon_button {
+    display: inline-block;
+    margin-left: 26px;
+    width: 23px;
+    height: 23px;
+}
+
+.rss_button {
+    display: inline-block;
+    margin-left: 23px;
+    width: 23px;
+    height: 23px;
+}
+
+/* =========== AUTOR RIGHTS ============*/
+
+.autor_rights {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #ffffff;
+    opacity: 0.5;
+}
